@@ -1,0 +1,42 @@
+#rootPane {
+	-fx-pref-width: 800px;
+	-fx-pref-height: 600px;	
+}
+
+.mainPane {
+	-fx-padding: 8px;
+	-fx-spacing: 5px;
+}
+
+.directoryLine, .controlLine {
+	-fx-spacing: 10px;
+	-fx-alignment: center;
+}
+
+.directoryLine Button, .directoryLine #selectedDirectoryField {
+	-fx-min-width: 100px;
+}
+
+.directoryLine Button {
+	-fx-text-overrun: clip;
+}
+
+.imageLine #imageList {
+	-fx-min-width: 150px;
+	-fx-max-width: 400px;
+}
+
+.imageLine ScrollPane {
+	-fx-min-width: 200px;
+}
+
+#loadingIndicatorPane {
+	-fx-alignment: center;
+	-fx-spacing: 20px;
+	-fx-background-color: rgba(0, 0, 0, 0.1);
+}
+
+#loadingIndicatorPane .loadingIndicator {
+	-fx-min-width: 100px;
+	-fx-min-height: 100px;
+}
